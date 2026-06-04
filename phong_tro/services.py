@@ -1,4 +1,6 @@
 from common.base_service import BaseService
+from hop_dong.models import Contract
+from nguoi_thue.models import Tenant
 from phong_tro.repositories import RoomRepository
 class RoomService(BaseService):
     def __init__(self):
