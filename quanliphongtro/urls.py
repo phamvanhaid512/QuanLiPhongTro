@@ -23,4 +23,8 @@ urlpatterns = [
     path("api/", include("tai_khoan.urls")),
     path("api/", include("phong_tro.urls")),
     path("api/", include("nguoi_thue.urls")),
+    path("api/", include("hop_dong.urls")),
+    path("api/", include("dich_vu_phong.urls")),
+    # path("api/", include("hoa_don.urls")),
+
 ]

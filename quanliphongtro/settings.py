@@ -40,9 +40,9 @@ INSTALLED_APPS = [
     'tai_khoan',
     'phong_tro',
     'nguoi_thue',
-    # 'hop_dong',
-    # 'dich_vu_phong',
-    # 'hoa_don',
+    'hop_dong', 
+    'dich_vu_phong',
+    'hoa_don',
 ]
 
 MIDDLEWARE = [

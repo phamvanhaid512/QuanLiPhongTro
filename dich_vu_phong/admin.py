@@ -1,3 +1,5 @@
 from django.contrib import admin
+from dich_vu_phong.models import RentalService, ServiceReading
 
-# Register your models here.
+admin.site.register(RentalService)
+admin.site.register(ServiceReading)

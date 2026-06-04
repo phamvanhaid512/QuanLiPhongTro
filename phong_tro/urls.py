@@ -8,7 +8,7 @@ room_controller = RoomController()
 
 urlpatterns = [
     path("rooms/empty/", csrf_exempt(room_controller.empty_rooms)),
-    # path("rooms/my-rooms/", csrf_exempt(room_controller.my_rooms)),
+    path("rooms/my-rooms/", csrf_exempt(room_controller.my_rooms)),
 
     path("rooms/", csrf_exempt(room_controller.list)),
     path("rooms/create/", csrf_exempt(room_controller.create)),
